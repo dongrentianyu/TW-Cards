@@ -1,7 +1,7 @@
 code-body: yes
 created: 20230718152637023
 creator: 马不前
-modified: 20230718152637023
+modified: 20230718173201715
 modifier: 马不前
 tags: $:/tags/ViewTemplate
 title: $:/plugins/oflg/fishing/ui/ViewTemplate/caption
@@ -16,18 +16,19 @@ title: $:/plugins/oflg/fishing/ui/ViewTemplate/caption
         type="match"
         text=""
     >
+<div style="font-size: 24px;">
         <$text
             text=<<currentTiddler>>
         />
+</div>
     </$reveal>
     <$reveal
         default={{{ [<currentTiddler>get[caption]trim[]] }}}
         type="nomatch"
         text=""
     >
-        <span class="tc-toc-caption">
-            <$transclude field="caption"/>
-        </span>
-    </$reveal>
-    <br><br>
+<div style="font-size: 24px;">
+<$transclude field="caption"/>
+</div>
+</$reveal>
 </$list>

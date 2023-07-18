@@ -1,0 +1,19 @@
+created: 20230718180810414
+creator: 马不前
+modified: 20230718181114656
+modifier: 马不前
+tags: $:/tags/Stylesheet
+title: $:/themes/tiddlywiki/starlight/styles.tid
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+
+/*
+Placeholder for a more thorough refinement of Snow White
+*/
+
+@font-face {
+	font-family: "Arvo";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Arvo"), url(<<datauri "$:/themes/tiddlywiki/starlight/arvo.woff">>) format("woff");
+}

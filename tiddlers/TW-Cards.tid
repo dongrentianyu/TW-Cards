@@ -1,6 +1,6 @@
 created: 20230104152413814
 creator: 林一二
-modified: 20230718154410962
+modified: 20230718174232645
 modifier: 马不前
 tags: OtherThings
 title: TW-Cards
@@ -13,3 +13,7 @@ type: text/vnd.tiddlywiki
 欢迎提交合适的卡片，但不要附带复习数据。
 
 也可以fork本仓库帮助学习tiddlywiki。
+
+* 在线网址：https://tiddly-gittly.github.io/TW-Cards
+* 可离线版本：https://tiddly-gittly.github.io/TW-Cards/offline.html
+* 仓库地址：https://github.com/tiddly-gittly/TW-Cards

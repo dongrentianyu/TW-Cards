@@ -3,9 +3,9 @@ created: 20230718151852798
 creator: 马不前
 dark-palette: Dracula
 description: Toggle between light/dark color palette
-light-palette: $:/themes/nico/notebook/palettes/palette-grey
+light-palette: $:/jd/palette/CoolMint
 list-after: 
-modified: 20230718152009943
+modified: 20230718175442192
 modifier: 马不前
 tags: $:/tags/PageControls
 title: $:/plugins/kookma/shiraz/ui/Buttons/SwitchPalette
