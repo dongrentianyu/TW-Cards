@@ -1,0 +1,33 @@
+code-body: yes
+created: 20230718152637023
+creator: 马不前
+modified: 20230718152637023
+modifier: 马不前
+tags: $:/tags/ViewTemplate
+title: $:/plugins/oflg/fishing/ui/ViewTemplate/caption
+
+\whitespace trim
+
+<$list
+    filter={{$:/config/FishingCascade/caption}}
+>
+    <$reveal
+        default={{{ [<currentTiddler>get[caption]trim[]] }}}
+        type="match"
+        text=""
+    >
+        <$text
+            text=<<currentTiddler>>
+        />
+    </$reveal>
+    <$reveal
+        default={{{ [<currentTiddler>get[caption]trim[]] }}}
+        type="nomatch"
+        text=""
+    >
+        <span class="tc-toc-caption">
+            <$transclude field="caption"/>
+        </span>
+    </$reveal>
+    <br><br>
+</$list>

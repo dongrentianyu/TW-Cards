@@ -1,0 +1,20 @@
+created: 20230718152637025
+creator: LinOnetwo
+modified: 20230718152637025
+modifier: 马不前
+tags: $:/tags/ViewTemplate
+title: $:/plugins/linonetwo/zx-script/OutputBar
+type: text/vnd.tiddlywiki
+
+<$list filter="[{!!title}addprefix[$:/state/linonetwo/zx-script/output/]is[tiddler]then{!!title}]">
+  <$list filter="[{!!title}addprefix[$:/state/linonetwo/zx-script/output/]]">
+    <!-- Space between top level and inner level transclude can't be omit, otherwise generated line will stick together, and destroy the tw render -->
+    <$transclude>
+
+      <$transclude tiddler="$:/language/MissingTiddler/Hint"/>
+
+    </$transclude>
+
+    <small><$link to=<<currentTiddler>> /></small>
+  </$list>
+</$list>

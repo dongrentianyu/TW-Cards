@@ -1,0 +1,34 @@
+caption: Favorites
+created: 20230718150736880
+creator: 马不前
+list-after: $:/core/ui/SideBar/Open
+modified: 20230718150738567
+modifier: 马不前
+tags: 
+title: $:/plugins/kookma/favorites/ui/sidebar/active-tab
+type: text/vnd.tiddlywiki
+
+\import $:/plugins/kookma/favorites/macros/definition
+\import [all[tiddlers+shadows]tag[$:/tags/Favorites/Macro/Folder]]
+
+\define show-options()
+<$button class="tc-btn-invisible  kk-fav-btn" to="$:/plugins/kookma/favorites/ui/manager">
+{{$:/core/images/options-button}} Manager
+</$button>
+\end
+
+\define colapse-all()
+<$list filter="[prefix[$(temppath)$/slider/]!suffix<recentlyAdded>] :filter[{!!text}match[open]] :and[limit[1]]" variable="null">
+<$button class="tc-btn-invisible kk-fav-btn" tooltip="collapse all folders, open Recently added" actions='<$action-deletetiddler $filter="[prefix[$(temppath)$/slider/]]"/>' >
+{{$:/core/images/fold-button}}
+</$button>
+</$list>
+\end
+
+<!-- create the sidebar tab -->
+<div class=""><!-- for future use -->
+<div>
+--- &nbsp;<<show-options>>&nbsp;<<colapse-all>><p/>
+</div>
+<$transclude tiddler="$:/plugins/kookma/favorites/templates/ui-folder-tree" field=text/>
+</div>

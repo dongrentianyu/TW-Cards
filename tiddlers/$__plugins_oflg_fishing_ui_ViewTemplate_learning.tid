@@ -1,0 +1,45 @@
+code-body: yes
+created: 20230718152637024
+creator: 马不前
+modified: 20230718152637024
+modifier: 马不前
+tags: $:/tags/ViewTemplate
+title: $:/plugins/oflg/fishing/ui/ViewTemplate/learning
+
+\whitespace trim
+
+<$list
+    filter={{$:/config/FishingCascade/learning}}
+    variable="targetTiddler"
+>
+    <$reveal
+        state=<<folded-state>>
+        type="nomatch"
+        text="hide"
+        animate="yes"
+    >
+        <div
+            class="tc-fishing-learning"
+        >
+            <!-- creat count -->
+            <div
+                class="tc-fishing-learning-count"
+            >
+                <$count filter="[subfilter{$:/temp/fishing!!fishingrod}subfilter{$:/temp/fishing!!fishingpond}]"/>
+            </div>
+            <!-- creat grade button -->
+            <div
+                class="tc-fishing-learning-grade"
+            >
+                <$list
+                    filter="[all[shadows+tiddlers]tag[$:/tags/FishingHook]!is[draft]]"
+                >
+                    <$transclude
+                        tiddler="$:/plugins/oflg/fishing/ui/ViewTemplate/button"
+                        mode="inline"
+                    />
+                </$list>
+            </div>
+        </div>
+    </$reveal>
+</$list>
