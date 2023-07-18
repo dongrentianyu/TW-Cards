@@ -1,6 +1,10 @@
 created: 20230718160006203
 creator: 马不前
-modified: 20230718160008353
+modified: 20230718183447552
 modifier: 马不前
 tags: TW-Cards
 title: 贡献与提交规范
+
+可以通过提交pr的方式，提交设计好了的卡片条目，并尽可能添加相应标签，方便查找。
+
+制卡方式请按照[[有效的学习：处理知识的20条规则|https://www.yuque.com/supermemo/wiki/20rules]]来处理。或者[[20 条知识表述规则（20 周年版）|https://zhuanlan.zhihu.com/p/269997143]]，但这些也只是一般意义上的建议，我们希望更多卡片投稿，不然不出意外又是我一个做了。
