@@ -1,0 +1,20 @@
+caption: {{$:/language/fishing/select}}
+condition: [<targetTiddler>tag[?]]
+created: 20230718155402183
+creator: 马不前
+description: {{$:/language/fishing/selecttip}}
+icon: $:/plugins/oflg/fishing/icons/select
+modified: 20230718155402183
+modifier: 马不前
+shortcuts: ((fishing-select))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/oflg/fishing/buttons/editortoolbar/select
+
+<$action-sendmessage
+    $message="tm-edit-text-operation"
+    $param="wrap-selection"
+    prefix='<<?s """
+'
+    suffix='
+""">>'
+/>

@@ -1,0 +1,44 @@
+caption: 下拉多行列表
+created: 20230718160312075
+creator: 马不前
+modified: 20230718160458198
+modifier: 马不前
+tags: Configuration $:/tags/Stylesheet
+title: $:/_xp/Stylesheet/multi-column-dropdown修改版
+
+/*
+* https://wikilabs.github.io/editions/multicol-dropdown/
+* 对源代码做了修改（修复）：
+* 1. 限制了下拉菜单及其背景颜色的作用域。（源代码改变了搜索下拉菜单的背景，且会造成主题的兼容性问题）
+* 2. 对字段选择器下拉菜单的最大宽度做了限制，以获得更好的浏览体验。
+*/
+
+@media (min-width: 960px) {
+
+  .tc-block-dropdown.tc-block-tags-dropdown,
+  .tc-block-dropdown.tc-edit-type-dropdown {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tc-block-tags-dropdown {
+    min-width: 900px;
+    
+    
+  }
+
+  .tc-dropdown-item {
+    flex: 1 0 5%;
+  }
+
+  .tc-block-dropdown.tc-block-tags-dropdown a,
+  .tc-block-dropdown.tc-edit-type-dropdown a {
+    flex: 1 0 calc(15% / 1);
+  }
+
+  .tc-edit-type-dropdown {
+    max-width: 650px;
+    
+  }
+
+}

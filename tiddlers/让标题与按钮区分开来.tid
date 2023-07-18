@@ -1,0 +1,12 @@
+created: 20230718160149711
+creator: 马不前
+modified: 20230718160218322
+modifier: 马不前
+tags: Configuration $:/tags/Stylesheet
+title: 让标题与按钮区分开来
+
+.tc-titlebar h2 {
+	display: table-header-group;
+	word-wrap:break-word;
+	word-break:break-all;
+}

@@ -1,0 +1,13 @@
+created: 20230718155600596
+creator: 马不前
+modified: 20230718155620090
+modifier: 马不前
+tags: Configuration $:/tags/Stylesheet
+title: 修改编辑字体大小
+
+.CodeMirror {
+    height: auto;
+    font-family: ;
+    font-size: 25px;
+    line-height: 30px;
+}
