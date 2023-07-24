@@ -1,0 +1,11 @@
+caption: 
+created: 20230724051034904
+creator: 马不前
+modified: 20230724051228833
+modifier: 马不前
+tags: 筛选器 ?
+title: 如何筛选出具有特定标签，并只含有这一个标签的条目？
+
+`<$list filter="[all[tiddlers]!is[system]tag[xxx]] :filter[tags[]count[]compare:number:eq[1]]" />`
+
+上面的筛选器先是筛选出具有`xxx`标签的条目，然后比较标签的数值是否等于1，等于1的返回条目。

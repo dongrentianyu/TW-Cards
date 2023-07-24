@@ -1,0 +1,11 @@
+caption: 如何筛选出插件条目中被修改过的条目呢？
+created: 20230724044518867
+creator: 马不前
+modified: 20230724044800461
+modifier: 马不前
+tags: 筛选器 ?
+title: 如何筛选出插件条目中被修改过的条目呢？
+
+使用`[is[tiddler]is[shadow]prefix[xxx]sort[title]]`筛选器，xxx表示某个插件名称，比如下面是列出了钓鱼插件被修改的插件条目。可以通过这种方式快速删除修改后的条目重置原始版本。
+
+<<list-links "[is[tiddler]is[shadow]prefix[$:/plugins/oflg/fishing/]sort[title]]">>
