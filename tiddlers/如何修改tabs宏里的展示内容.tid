@@ -1,0 +1,21 @@
+created: 20230726113321181
+creator: 马不前
+modified: 20230726113743454
+modifier: 马不前
+tags: 筛选器 ? 宏
+title: 如何修改tabs宏里的展示内容
+
+使用`enlist`筛选器来控制。
+
+```
+<$macrocall
+	$name="tabs"
+	tabsList="[all[tiddlers+shadows]tag[xxx]] -[enlist{$:/config/HideMoreSideBarTabs}]"
+default="xxx"
+ />
+```
+
+上面的代码中tabs内容为xxx标签里的条目，然后会减去`$:/config/HideMoreSideBarTabs`条目里的内容。
+
+* 多个条目用空格隔开
+* 条目标题中含有空格的，用`[[]]`括起来
