@@ -1,6 +1,6 @@
 created: 20230726113321181
 creator: 马不前
-modified: 20230726113743454
+modified: 20230726113921132
 modifier: 马不前
 tags: 筛选器 ? 宏
 title: 如何修改tabs宏里的展示内容
@@ -19,3 +19,5 @@ default="xxx"
 
 * 多个条目用空格隔开
 * 条目标题中含有空格的，用`[[]]`括起来
+
+方案来源于[[论坛|https://talk.tiddlywiki.org/t/is-there-a-way-to-display-a-tab-in-sidebar-tabs-only-if-a-condition-if-met/2415]]
