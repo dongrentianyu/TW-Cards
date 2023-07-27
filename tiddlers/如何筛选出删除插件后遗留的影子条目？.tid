@@ -1,0 +1,10 @@
+created: 20230727150529984
+creator: 马不前
+modified: 20230727150725359
+modifier: 马不前
+tags: 筛选器 ?
+title: 如何筛选出删除插件后遗留的影子条目？
+
+`[all[tiddlers+shadows]prefix[xxx]]`
+
+xxx是插件名称。有些config条目可能删除不了，但基本上不影响了。
