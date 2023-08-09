@@ -2,10 +2,10 @@
     {
         "created": "20230809141423059",
         "creator": "马不前",
-        "text": "通过tabs宏的`template`参数来实现。\n\n<<tabs tabsList:\"[tag[示例条目]]\" \"$:/state/tab1\">>\n\n\n上面的tabs是常见的，展示了四个具有示例条目标签的条目。然后其中示例条目三有三个小的示例条目1，示例条目2，示例条目3，然后下面的就是展示示例条目三的三个子标签。通过[[template-tabs]]来嵌套展示。\n\n<<tabs tabsList:\"[tag[示例条目]]\" \"示例条目三\" template:\"template-tabs\" \"$:/state/tab2\">>\n\n当然还可以在这个基础上，改成用下面的list-link-text来实现展示效果。都是可以的。\n\n\n```\n<$list filter=\"[tag<currentTiddler>]\">\n\n<$link><<currentTiddler>></$link>\n\n{{!!text}}\n\n</$list>\n```\n",
+        "text": "通过tabs宏的`template`参数来实现。\n\n<<tabs tabsList:\"[tag[示例条目]]\" \"$:/state/tab1\">>\n\n\n上面的tabs是常见的，展示了四个具有示例条目标签的条目。然后其中示例条目三有三个小的示例条目1，示例条目2，示例条目3，然后下面的就是展示示例条目三的三个子标签。通过[[template-tabs]]来嵌套展示。\n\n<<tabs tabsList:\"[tag[示例条目]]\" \"示例条目三\" template:\"template-tabs\" \"$:/state/tab2\">>\n\n当然还可以在这个基础上，改成用下面的list-link-text来实现展示效果。都是可以的。\n\n\n```\n<$list filter=\"[tag<currentTiddler>]\">\n\n<$link><<currentTiddler>></$link>\n\n{{!!text}}\n\n</$list>\n```\n\n\n方案来源于[[论坛|https://talk.tiddlywiki.org/t/using-template-on-tiddler-that-is-shown-on-a-tab/4127/6?u=dongrentianyu]]。",
         "tags": "tabs ?",
         "title": "如何嵌套展示tabs宏？",
-        "modified": "20230809142921548",
+        "modified": "20230809143615613",
         "modifier": "马不前",
         "caption": "如何嵌套展示tabs宏？<br>\n即在一个tabs中展示当前条目中的tabs内容？"
     }
