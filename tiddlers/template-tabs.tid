@@ -1,0 +1,14 @@
+code-body: yes
+created: 20230809142431879
+creator: 马不前
+modified: 20230809142553613
+modifier: 马不前
+tags: 示例配置
+title: template-tabs
+
+<$tiddler tiddler=<<currentTab>>>
+<$transclude mode="block" />
+
+<<tabs tabsList:"[tag<currentTiddler>]" >>
+
+</$tiddler>
