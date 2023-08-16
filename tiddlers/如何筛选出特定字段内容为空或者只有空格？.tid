@@ -1,11 +1,10 @@
 created: 20230725070504107
 creator: 马不前
-modified: 20230725070711884
+modified: 20230814161241928
 modifier: 马不前
 tags: 筛选器 ?
 title: 如何筛选出特定字段内容为空或者只有空格？
 
 `[has:field[xxx]] :filter[{!!xxx}trim[]is[blank]then[yes]]`
 
-上面筛选器里xxx是特定字段。解决方案来源于[[论坛|https://talk.tiddlywiki.org/t/filter-to-show-tiddlers-with-a-specific-empty-field/
-]]，里面还讨论了如果特定字段含有空格不认为是空的情况下如何写筛选器。
+上面筛选器里xxx是特定字段。解决方案来源于[[论坛|https://talk.tiddlywiki.org/t/filter-to-show-tiddlers-with-a-specific-empty-field/]]，里面还讨论了如果特定字段含有空格不认为是空的情况下如何写筛选器。
