@@ -7,7 +7,7 @@ description: 太微有很多系统标签，掌握这些系统标签可以快速�
 exclude_action: {{$:/plugins/tidme/fsrs4tw/buttons/action/exclude}}
 leech_action: {{$:/plugins/tidme/fsrs4tw/buttons/action/exclude}}
 leech_threshold: 8
-modified: 20231122031006467
+modified: 20231122075938936
 modifier: 马不前
 order: due-new
 order_due: [sort[due]]
@@ -20,3 +20,5 @@ state_new: [!has[state]] [state[0]]
 tags: $:/tags/TidmeDeck TableOfContents
 title: 系统标签
 unfold_action: {{$:/plugins/tidme/fsrs4tw/buttons/action/unfold}}
+
+系统标签有很多，详见[[官文文档|https://bramchen.github.io/tw5-docs/zh-Hans/#SystemTags]]。这里只把一些常见且重要的系统标签作为题目进行复习。

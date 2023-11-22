@@ -1,0 +1,17 @@
+caption: {{$:/language/tidme/type}}
+condition: [<targetTiddler>]
+created: 20231122075448862
+creator: 马不前
+description: {{$:/language/tidme/typetip}}
+icon: $:/plugins/tidme/fsrs4tw/icons/type
+modified: 20231122075448862
+modifier: 马不前
+shortcuts: ((tidme-type))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/tidme/fsrs4tw/buttons/editortoolbar/type
+
+<$action-sendmessage
+    $message="tm-edit-text-operation"
+    $param="insert-text"
+    text="<<T >>"
+/>

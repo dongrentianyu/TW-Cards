@@ -1,0 +1,21 @@
+caption: simple-quote
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+created: 20231122075448862
+creator: 马不前
+description: 多重引号
+icon: $:/core/images/right-arrow
+modified: 20231122075448862
+modifier: 马不前
+shortcuts: ((simple-quote))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/mabuqian/gumo-customisation/simple-quote
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+	$message="tm-edit-text-operation"
+	$param="wrap-selection"
+	prefix="<<<
+"
+	suffix="
+<<<"
+/>

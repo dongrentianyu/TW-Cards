@@ -1,0 +1,20 @@
+caption: {{$:/language/tidme/select}}
+condition: [<targetTiddler>]
+created: 20231122075448862
+creator: 马不前
+description: {{$:/language/tidme/selecttip}}
+icon: $:/plugins/tidme/fsrs4tw/icons/select
+modified: 20231122075448862
+modifier: 马不前
+shortcuts: ((tidme-select))
+tags: $:/tags/EditorToolbar
+title: $:/plugins/tidme/fsrs4tw/buttons/editortoolbar/select
+
+<$action-sendmessage
+    $message="tm-edit-text-operation"
+    $param="wrap-selection"
+    prefix='<<S """
+'
+    suffix='
+""">>'
+/>
