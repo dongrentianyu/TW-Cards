@@ -1,13 +1,13 @@
 code-body: yes
 created: 20230718155649215
 creator: 马不前
-modified: 20230718182228770
+modified: 20231122025152948
 modifier: 马不前
 tags: Configuration $:/tags/EditTemplate
 title: $:/ContributionBanner
 
 \define base-github()
-https://github.com/tiddly-gittly/TW-Cards/tree/master/tiddlers/
+https://github.com/dongrentianyu/TW-Cards/tree/master/tiddlers/
 \end
 
 <$set name="draft-of" value={{{ [<currentTiddler>get[draft.of]] }}}>

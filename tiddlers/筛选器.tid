@@ -1,4 +1,3 @@
-caption: 
 card: [all[shadows+tiddlers]tag[筛选器]]
 card_exclude: [tag[!]]
 card_unfold: [tag[.]]
@@ -8,7 +7,7 @@ description:
 exclude_action: {{$:/plugins/tidme/fsrs4tw/buttons/action/exclude}}
 leech_action: {{$:/plugins/tidme/fsrs4tw/buttons/action/exclude}}
 leech_threshold: 8
-modified: 20231121015657355
+modified: 20231122030545420
 modifier: 马不前
 order: due-new
 order_due: [sort[due]]
@@ -18,6 +17,6 @@ p: {"request_retention":0.9,"maximum_interval":36500,"w":[0.4,0.6,2.4,5.8,4.93,0
 state_due: [state[2]has[due]] -[!days:due[1]]
 state_learn: [state[1]] [state[3]] :filter[{!!due}compare:date:lt<now [UTC]YYYY0MM0DD0hh0mm0ss0XXX>]
 state_new: [!has[state]] [state[0]]
-tags: $:/tags/TidmeDeck
+tags: $:/tags/TidmeDeck TableOfContents
 title: 筛选器
 unfold_action: {{$:/plugins/tidme/fsrs4tw/buttons/action/unfold}}

@@ -1,9 +1,9 @@
 caption: 如何去除侧边栏搜索框和搜索按钮？
 created: 20230720152657029
 creator: 马不前
-modified: 20230720152804344
+modified: 20231122031015612
 modifier: 马不前
-tags: 系统标签 ?
+tags: 系统标签
 title: 如何去除侧边栏搜索框和搜索按钮？
 
 找到[[$:/core/ui/SideBarSegments/search]]条目，去除[[$:/tags/SideBarSegment]]标签就可以了。

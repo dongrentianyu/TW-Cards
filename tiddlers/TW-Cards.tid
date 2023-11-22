@@ -1,6 +1,6 @@
 created: 20230104152413814
 creator: 林一二
-modified: 20231120123658680
+modified: 20231122030043429
 modifier: 马不前
 tags: OtherThings
 title: TW-Cards
@@ -10,6 +10,13 @@ type: text/vnd.tiddlywiki
 
 虽然也说不上恢复更新吧，但我觉得还是我先用起来吧。因为虽然我复习了，但并不会影响数据卡片。这样就也还可以。
 
+基本上是由我来维护了，所以我就把仓库转移到我的github账户下了。然后设置也是按我的喜好来处理了。相当于我自己在使用这个wiki进行复习。但复习的数据不会影响卡片条目。因为tidme插件是把复习数据单独放在一个条目里的。
+
+至于卡片质量，那就是各有看法了。我尽量写得简单，同时又有用。
+
+当然也无力再提供英文版本的了。如果感兴趣的话可以fork本仓库去翻译。
+
+---
 本仓库用来收集太微卡片。
 
 卡片是指用钓鱼插件进行间隔复习的独立条目。
@@ -18,6 +25,6 @@ type: text/vnd.tiddlywiki
 
 也可以fork本仓库帮助学习tiddlywiki。
 
-* 在线网址：https://tiddly-gittly.github.io/TW-Cards
-* 可离线版本：https://tiddly-gittly.github.io/TW-Cards/offline.html
-* 仓库地址：https://github.com/tiddly-gittly/TW-Cards
+* 在线网址：https://dongrentianyu.github.io/TW-Cards/
+* 可离线版本：https://dongrentianyu.github.io/TW-Cards/offline.html
+* 仓库地址：https://github.com/dongrentianyu/TW-Cards

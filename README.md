@@ -8,8 +8,8 @@ Feel free to submit suitable cards, but do not include review data.
 
 Also fork this repository to help learn tiddlywiki.
 
-Available online: https://tiddly-gittly.github.io/TW-Cards
+Available online: https://dongrentianyu.github.io/TW-Cards/
 
-Available offline: https://tiddly-gittly.github.io/TW-Cards/offline.html
+Available offline: https://dongrentianyu.github.io/TW-Cards/offline.html
 
 Bilingual versions are submitted in both English and Chinese whenever possible. Other language versions to be considered.
